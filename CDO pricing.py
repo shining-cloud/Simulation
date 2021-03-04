@@ -1,9 +1,6 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# In[432]
-$$\alpha $$
-
 import numpy as np
 from functools import lru_cache
 import scipy.stats as st
@@ -12,9 +9,6 @@ import matplotlib.pyplot as plt
 get_ipython().run_line_magic('matplotlib', 'inline')
 import seaborn as sns
 np.set_printoptions(suppress=True)
-
-
-# In[640]:
 
 
 # Monte Carlo Simulation
