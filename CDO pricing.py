@@ -2,7 +2,7 @@
 # coding: utf-8
 
 # In[432]
-$$\alpha$$
+$$\alpha $$
 
 import numpy as np
 from functools import lru_cache
