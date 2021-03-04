@@ -1,8 +1,8 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# In[432]:
-啊从
+# In[432]
+$$\alpha$$
 
 import numpy as np
 from functools import lru_cache
