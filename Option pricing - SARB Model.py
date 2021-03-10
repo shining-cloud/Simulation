@@ -1,3 +1,12 @@
+'''
+This project includes:
+
+1. Monte Carlo Simulation to price an option under stochastic volatitlity (SARB model)
+2. Variance reduction
+3. Volatiliy smile
+'''
+
+# import packages
 import numpy as np 
 import matplotlib.pyplot as plt #3.3.4 needed, won't work with any other versions of mpl
 from scipy.stats import norm
