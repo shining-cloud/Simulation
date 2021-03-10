@@ -2,7 +2,7 @@
 This project includes:
 
 1. Monte Carlo Simulation to price an option under stochastic volatitlity (SARB model)
-2. Variance reduction
+2. Variance reduction technique
 3. Volatiliy smile
 '''
 
