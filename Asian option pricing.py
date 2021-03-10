@@ -1,3 +1,13 @@
+'''
+This project includes:
+
+1. Analytical solution of Asian option
+2. Monte Carlo simulation to price an Asian option
+3. Control variate technique
+4. Comparision between classic Monte Carlo simulation and Monte Carlo simulation with control variate
+'''
+
+# import packages
 import numpy as np 
 import matplotlib.pyplot as plt
 from scipy.stats import norm
