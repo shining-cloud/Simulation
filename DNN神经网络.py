@@ -136,8 +136,6 @@ optimizer = torch.optim.SGD(DNN_Model.parameters(), lr = alpha)
 loss_function = nn.CrossEntropyLoss()
 
 # Dynamically change the learning rate
-# batch size为一次训练所选取的样本数，当batch size等于simple size时
-# epoch可以简单理解为迭代次数，不等时不可以
 def adjust_learning_rate(optimizer, epoch):
     lr = alpha / (1 + 0.00001 * epoch)
     for param_group in optimizer.param_groups:
